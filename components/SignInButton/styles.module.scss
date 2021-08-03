@@ -1,0 +1,31 @@
+.signInButton {
+  height: 4rem;
+  width: 260px;
+  background: var(--btn-gray);
+  border-radius: 8px;
+  margin-top: 20px;
+
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bold;
+  font-size: larger;
+  font: "Roboto", serif;
+  color: var(--blue);
+
+  svg {
+    width: 25px;
+    height: 25px;
+  }
+
+  svg:first-child {
+    margin-right: 1rem;
+  }
+
+  transition: filter 0.2s;
+
+  &:hover {
+    filter: brightness(0.8);
+  }  
+
+}

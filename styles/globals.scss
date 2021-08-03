@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #FFFFFF;
+  --gray-100: #e1e1e6;
+  --black: #202123;
+  --yellow: #ee9a38;
+  --green: #517a34;
+  --blue: #32364a;
+  --dark-blue: #1a1c29;
+  --btn-gray: #DCDCE5;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+body {
+  background: var(--dark-blue);
+  color: var(--white);
+}
+
+body, input, textarea, select, button {
+  font: 400 1rem "sura", serif;
+}
